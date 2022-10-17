@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FC Bayern Munich</title>
+    <link
+      rel="shortcut icon"
+      href="images/fcb-favicon.png"
+      type="image/x-icon"
+    />
+    <!--# BootStrap Link Here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!--# CSS File Link Here -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--# Google Font's Link Here -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--# Header Section: Started -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="h2">FC Bayern Munich</h2>
+            <p class="p">
+              Bayern is the most successful club in German football history,
+              having won a record 32 national titles, including 10 consecutively
+              since 2013, and 20 national cups, along with numerous European
+              honours. Fußball-Club Bayern München e. V. FC Bayern Munich was
+              founded in 1900 by 11 football players, led by Franz John.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--# Card Section: Started -->
+    <section class="cards-section">
+      <div class="container-fluid">
+        <div class="col-lg-12">
+          <div class="row mb-md-5 mx-md-5">
+            <div class="col-md-3 margin-card">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/neure.png"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5 id="player-name-1" class="card-title text-danger">
+                    Manuel Neuer
+                  </h5>
+                  <p class="card-text">
+                    <span>Goal Keeper</span>
+                    .
+                    <span>Germany</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true"
+                    id="button-added-1"
+                    class="button"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/joshua_kimmich.png"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    id="player-name-2"
+                    class="card-title text-danger player-name"
+                  >
+                    Joshua Kimmich
+                  </h5>
+                  <p class="card-text">
+                    <span>Defensive Mid</span>
+                    .
+                    <span>Germany</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true;"
+                    id="button-added-2"
+                    class="button button-added"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/gnabry.jfif"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    id="player-name-3"
+                    class="card-title text-danger player-name"
+                  >
+                    Serge Gnabry
+                  </h5>
+                  <p class="card-text">
+                    <span>Winger</span>
+                    .
+                    <span>Germany</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true;"
+                    id="button-added-3"
+                    class="button button-added"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <h4 class="text-danger text-center my-3">Select - V</h4>
+              <div>
+                <ol id="ol"></ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="row mb-md-5 mx-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/sane.png"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    id="player-name-4"
+                    class="card-title text-danger player-name"
+                  >
+                    Leroy Sané
+                  </h5>
+                  <p class="card-text">
+                    <span>Winger</span>
+                    .
+                    <span>Germany</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true;"
+                    id="button-added-4"
+                    class="button button-added"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/de.png"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    id="player-name-5"
+                    class="card-title text-danger player-name"
+                  >
+                    Matthijs de Ligt
+                  </h5>
+                  <p class="card-text">
+                    <span>Defender</span>
+                    .
+                    <span>Dutch</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true;"
+                    id="button-added-5"
+                    class="button button-added"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/jamal.png"
+                  alt="neure"
+                />
+                <div class="card-body text-center">
+                  <h5
+                    id="player-name-6"
+                    class="card-title text-danger player-name"
+                  >
+                    Jamal Musiala
+                  </h5>
+                  <p class="card-text">
+                    <span>Attacking Mid</span>
+                    .
+                    <span>Germany</span>
+                  </p>
+                  <button
+                    onclick="this.disabled = true;"
+                    id="button-added-6"
+                    class="button button-added"
+                  >
+                    Select
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 text-center">
+              <h4 id="budge" class="my-3 text-danger">Budge</h4>
+              <div>
+                <label class="my-1" for="">Per Player:</label>
+                <input id="player-filed" class="px-2" type="text" />
+              </div>
+              <button id="calculate" class="btn button my-3">Calculate</button>
+              <h6 class="mt-2">
+                Player Expenses: $<span id="player-expenses">5000</span>
+              </h6>
+              <div>
+                <label class="my-1" for="">Manager:</label> <br />
+                <input class="px-2" id="manager" type="text" />
+              </div>
+              <div>
+                <label class="my-1" for="">Coach:</label> <br />
+                <input class="px-2" id="coach" type="text" />
+              </div>
+              <button id="calculate-total" class="button btn my-3">
+                Calculate Total
+              </button>
+              <h6 class="mt-2">Total: $<span id="total-cost">11000</span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--# Footer Section: Started -->
+    <footer class="container-fluid text-center bg-danger">
+      <p class="text-white py-5">
+        Copyright © 2022
+        <a href="https://mhador.com/" class="text-white font-weight-bold"
+          >Mehedy Hasan Ador</a
+        >. All Rights Reserved by Mehedy
+      </p>
+    </footer>
+
+    <!--# JS File Link Here -->
+    <script src="js/calculate.js"></script>
+
+    <!--# BootStrap JS File Link Here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/cover1.jpg);
+  background-size: cover;
+  height: 100vh;
+  opacity: 95%;
+  margin-bottom: 80px;
+}
+header .h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #dc052d;
+  margin-bottom: 0.5em;
+}
+header .p {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #f9f2ed;
+}
+.cards-section .button {
+  background-color: #d61c4e;
+  color: whitesmoke;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+.cards-section .button:hover {
+  background-color: #293462;
+  color: whitesmoke;
+}
